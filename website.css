@@ -1,0 +1,26 @@
+html {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-family:'Comic Sans MS';
+    color:darkcyan;
+    text-underline-offset: 9000px;
+}
+
+h2 {
+    font-family:'LetterOMatic!';
+}
+
+a {
+    color:darkorchid;
+}
+
+ul {
+    text-indent: 0px;
+    list-style-type: square;
+}
+
+.emphasized {
+    font-size:24px;
+}
