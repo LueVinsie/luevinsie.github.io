@@ -2,18 +2,24 @@
 <html>
 <head><title>Favorites of Vincent Sullano</title>
     <link href="website.css" rel="stylesheet">
+    <script src="favorites.js"></script>
 </head>
-<body>
+<body onload="init()">
+    <nav>
+        <a href="index.html"><img src="myimages/pic.jpg" width=60px height=60px></a>
+        <a href="resume.html">My Resume</a>
+        <a href="myself.html">More About Me!</a>
+        <a href="family.html">My Family</a>
+        <a href="favorites.html">My Favorites</a>
+    </nav>
     <center>
-    <a href="index.html"><img src="myimages/pic.jpg" width=320px height="320px"></a>
+    <br><br><br><br>
     <h1>My Favorites</h1>
     
-    <table>
+    <table class="favorites">
         <tr>
             <th>Favorite Colors</th>
             <th>Favorite Food</th>
-            <th>Favorite Hobbies</th>
-            <th>Favorite Games</th>
         </tr>
         <tr>
             <td><ul>
@@ -22,20 +28,26 @@
                 <li style="-webkit-text-stroke: 1px #f74ff7;">Magenta</li>
             </ul></td>
             <td><ul>
-                <li>Fried Chicken</li>
-                <li>Porkchop</li>
-                <li>Bacon</li>
+                <li>Fried Chicken <img src="myimages/chicken.png" width=13px height=18px></li>
+                <li>Porkchop <img src="myimages/pork.png" width=18px height=18px></li>
+                <li>Bacon <img src="myimages/bacon.png" width=18px height=18px></li>
             </ul></td>
+        </tr><br>
+        <tr>
+            <th>Favorite Hobbies</th>
+            <th>Favorite Games</th>
+        </tr>
+        <tr>
             <td><ul>
                 <li>Gaming</li>
-                <li>Programming</li>
+                <li id="program" onclick="clickedProgramming()">Programming</li>
                 <li>Reading</li>
             </ul></td>
             <td><ul>
-                <li>Minecraft</li>
-                <li>osu!</li>
-                <li>Left 4 Dead 2</li>
-                <li>Plague Inc. Evolved</li>
+                <li style="color: #0f7f0f;"><a href="https://www.minecraft.net/en-us" target="_blank">Minecraft</a></li>
+                <li style="color: #d918d9;"><a href="https://osu.ppy.sh" target="_blank">osu!</a></li>
+                <li style="color: #d79d33;"><a href="https://store.steampowered.com/app/550/" target="_blank">Left 4 Dead 2</a></li>
+                <li style="color: #af0000;"><a href="https://store.steampowered.com/app/246620/" target="_blank">Plague Inc. Evolved</a></li>
             </ul></td>
         </tr>
     </table>

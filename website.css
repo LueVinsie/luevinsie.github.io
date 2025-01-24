@@ -19,10 +19,15 @@ nav {
     z-index: 1000;
 }
 
+nav {
+    background-color: rgba(0,0,0,0.18);
+}
+
 nav a {
     color: #df04fe;
     text-decoration: none;
-    margin: 0 15px
+    margin: 0 15px;
+    vertical-align: middle;
 }
 
 nav a:hover {
@@ -61,17 +66,50 @@ td {
     font-family:'Segoe UI Semibold'
 }
 
-.duocolumn1 {
-    margin-top: auto;
-    margin-left: 18%;
-}
-
-.duocolumn2 {
-    margin-top:-47.5%;
-    margin-left: 62%;
-}
-
 .info {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.myself th {
+    font-size: 20px;
+    text-shadow: 1.04px 1.04px 0 #000000;
+}
+
+.myself td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.resume {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume td {
+    text-align: left;
+    vertical-align: text-top;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.linkstuff a {
+    color: #656500;
+    font-size: 18px;
+    text-shadow: 1.2px 1.2px 0 #000000;
+    text-decoration: none;
+}
+
+.favorites td {
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.favorites a {
+    color: #000000;
+    font-weight:500;
+    text-shadow: none;
+    text-decoration: underline;
 }
