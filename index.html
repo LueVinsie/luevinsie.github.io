@@ -2,12 +2,22 @@
 <html>
 <head><title>Personal Website of Vincent Sullano</title>
     <link href="website.css" rel="stylesheet">
+    <script src="website.js"></script>
 </head>
-<body>
+<body onload = "init()">
+    <nav>
+        <a href="index.html"><img src="myimages/pic.jpg" width=60px height=60px></a>
+        <a href="resume.html">My Resume</a>
+        <a href="myself.html">More About Me!</a>
+        <a href="family.html">My Family</a>
+        <a href="favorites.html">My Favorites</a>
+    </nav>
     <center>
-    <a href="index.html"><img src="pic.jpg" width=320px height="320px"></a>
+    <br><br><br><br>
+    <img src="myimages/pic.jpg" width=320px height="320px" onclick="clickedMe()">
     <h1>Hello!</h1>
-    <h2><b class = "emphasized">Luis Vincent S. Sullano</b></h2>
+    <h1 style="font-size: 20px; color: #0055ff">Welcome to my website!<h1>
+    <h2><b class = "emphasized">Who might I be?</b></h2>
         <p class = "info">
             I am Luis Vincent S. Sullano, an aspiring game developer who's also
             getting into content creation. I hope to develop good games that all
@@ -15,10 +25,15 @@
             decent in speaking English, as well as having some critical thinking
             skills.
         </p>
-    <h1><a href="resume.html">My Resume</a></h1>
-    <h1><a href="myself.html">Myself!</a></h1>
-    <h1><a href="family.html">My Family</a></h1>
-    <h1><a href="favorites.html">My Favorites</a></h1>
+        <p id="clicker"></p>
+    <h2 class="emphasized">What do I do?</h2>
+        <p class = "info">
+            I play around. I code around. I go with the flow.
+            In playing around, I play a lot of games, I analyze too much to the point
+            of unnecessary tunings, and I learn more reading code than learning to code.
+            Speaking of, I've had my fair share of coding experiences, outdated as they may be.
+            I can read assembly language. That's how deep I've gotten.
+        </p>
     </center>
 </body>
 </html>
