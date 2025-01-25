@@ -57,10 +57,6 @@ ul {
     list-style-type: square;
 }
 
-td {
-    padding: 8px;
-}
-
 .emphasized {
     font-size:24px;
     font-family:'Segoe UI Semibold'
@@ -112,4 +108,19 @@ td {
     font-weight:500;
     text-shadow: none;
     text-decoration: underline;
+}
+
+.container {
+    position: relative;
+  }
+
+.mira {
+    position: absolute;
+    top: 52%;
+    left: 40%;
+    width: 20px;
+    height: 16px;
+    background: transparent;
+    border: none;
+    font-size:0;
 }

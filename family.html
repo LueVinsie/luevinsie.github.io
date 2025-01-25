@@ -2,6 +2,7 @@
 <html>
 <head><title>Family of Vincent Sullano</title>
     <link href="website.css" rel="stylesheet">
+    <script src="family.js"></script>
 </head>
 <body>
     <nav>
@@ -14,16 +15,25 @@
     <center>
     <br><br><br><br>
     <h1>My Family</h1>
+    <div class="container">
     <img src="myimages/fampic.jpg" alt="insert family pic here" width=50% height=50%>
-    <h3><b class = "emphasized">From left to right:</b></h3>
+    <button class="mira" onclick="underlineClick(6)">E</button>    
+    </div>
+    <h3 class="emphasized">From left to right:</b></h3>
     </center>
     <ul style="margin-left:auto;margin-right:auto;padding-left:39.5%">
-        <li><u>Vincent Sullano</u> - Me, the second child</li>
-        <li><u>Gabriella Sullano</u> - My sister, the eldest child</li>
-        <li><u>Oskie Sullano</u> - My brother, the youngest child</li>
-        <li><u>Lowell Sullano</u> - My father</li>
-        <li><u>Shiena Sullano</u> - My mother</li>
+        <li><u onclick="underlineClick(1)">Vincent Sullano</u> - Me, the second child</li>
+        <li><u onclick="underlineClick(2)">Gabriella Sullano</u> - My sister, the eldest child</li>
+        <li><u onclick="underlineClick(3)">Oskie Sullano</u> - My brother, the youngest child</li>
+        <li><u onclick="underlineClick(4)">Lowell Sullano</u> - My father</li>
+        <li><u onclick="underlineClick(5)">Shiena Sullano</u> - My mother</li>
     </ul>
+    <center>
+    <h3 class="emphasized">Click on an underlined name to know more!</h3>
+    <div id = "fampic" style="width:70%; height:70%">
+    </div>
+    <p id="famdesc"></p>
+    </center>
     
 </body>
 </html>
